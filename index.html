@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+
+    <title>Funções: Definições</title>
+</head>
+<body>
+    <!-- Trabalho desenvolvido por: Ester Lima e Shynji Miyasato -->
+
+    <header>
+        <nav class="navbar">
+            <div id="titulo">
+                <h1>Funções: Definições, Tipos e Exemplos</h1>
+            </div>
+
+            <div id="conteudo">
+                <ul>
+                    <li><a href="index.html">O que são funções</a></li>
+                    <li><a href="funcoes_polinomiais.html">Funções Polinomiais</a></li>
+                    <li><a href="funcoes_logaritmicas_e_exponenciais.html">Funções Logarítmicas e Exponenciais</a></li>
+                    <li><a href="funcoes_trigonometricas.html">Funções Trigonométricas</a></li>
+                    <li><a href="referencias.html">Referências</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <section id="funcoes">
+                <h1 class="titulo">Funções</h1>
+                <p>
+                    As funções matemáticas desempenham um papel fundamental na matemática e em muitas áreas da ciência e
+                    engenharia.Elas são essencialmente regras que associam elementos de um conjunto de entrada, chamado
+                    de "domínio", a elementos de um conjunto de saída, chamado de "contradomínio". As funções são representadas
+                    simbolicamente como <math display="inline"><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>B</mi></math>, onde
+                    <math display="inline"><mi>A</mi></math> é o domínio e <math display="inline"><mi>B</mi></math> é o
+                    contradomínio. Essa notação indica que a função <math display="inline"><mi>f</mi></math> mapeia elementos
+                    de <math display="inline"><mi>A</mi></math> para elementos de <math display="inline"><mi>B</mi></math>.
+                </p>
+                <p>
+                    Vamos explorar mais detalhadamente os conceitos de domínio, contradomínio e imagem:
+                </p>
+
+                <h1 class="subtitulo">Domínio</h1>
+                <p>
+                    O domínio de uma função é o conjunto de todos os valores possíveis de entrada, ou seja, os valores para
+                    os quais a função está definida. Por exemplo, considere a função
+                    <math display="inline"><mi>f(x)</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math>. O domínio dessa função é o
+                    conjunto de todos os números reais, pois você pode calcular <math display="inline"><mi>f(x)</mi><mo>=</mo><mi>x</mi></math>
+                    para qualquer número real que escolher. No entanto, em algumas funções, o domínio pode ser restrito a um
+                    subconjunto específico dos números reais, como os números positivos ou inteiros.
+                </p>
+
+                <h1 class="subtitulo">Contradomínio</h1>
+                <p>
+                    O contradomínio é o conjunto de todos os valores possíveis de saída de uma função, independentemente de
+                    serem realmente produzidos pela função. Para a função <math display="inline"><mi>f(x)</mi><mo>=</mo>
+                    <msup><mi>x</mi><mn>2</mn></msup></math>, o contradomínio também é o conjunto de todos os números reais,
+                    uma vez que a saída da função pode ser qualquer número real. O contradomínio é uma especificação mais
+                    ampla do que a imagem, pois pode conter valores que a função não atinge.
+                </p>
+
+                <h1 class="subtitulo">Imagem</h1>
+                <p>
+                    A imagem de uma função é o conjunto de todos os valores de saída que realmente são obtidos quando a função
+                    é aplicada a elementos do domínio. Em outras palavras, a imagem é o conjunto de valores no contradomínio que
+                    correspondem aos elementos no domínio após a aplicação da função. Usando a função <math display="inline">
+                    <mi>f(x)</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math> como exemplo novamente, a imagem é o conjunto
+                    de todos os números reais não negativos, porque a função produz apenas valores não negativos.
+                </p>
+
+                <div class="imagem">
+                    <img src="imagens/dominio-contradominio-imagem.png"/> 
+                    <p>Fonte: <a href="https://www.infoescola.com/matematica/dominio-contradominio-e-imagem/" target="_blank">InfoEscola</a></p>
+                </div>
+                
+                <p>
+                    É importante notar que a imagem de uma função pode ser um subconjunto do contradomínio, e a função pode não
+                    atingir todos os valores possíveis no contradomínio. A relação entre o domínio, a imagem e o contradomínio é
+                    fundamental para compreender o comportamento de uma função e sua aplicação em diversas áreas da matemática e
+                    da ciência.
+                </p>
+            </section>
+
+            <hr/>
+
+            <section id="propriedades">
+                <h1 class="titulo">Propriedade das Funções</h1>
+                <p>
+                    As funções matemáticas desempenham um papel crucial na análise e modelagem de fenômenos em diversas áreas da
+                    matemática e ciência. Além das definições fundamentais, como domínio e contradomínio, as funções possuem
+                    propriedades específicas que descrevem seu comportamento em relação à correspondência entre elementos do
+                    domínio e do contradomínio. Três propriedades importantes das funções são: ser injetora, sobrejetora e
+                    bijetora. Vamos explorar cada uma delas a seguir.
+                </p>
+
+                <h1 class="subtitulo">Função Injetora</h1>
+                <p>
+                    Uma função é considerada injetora quando cada elemento único no domínio é mapeado para um único elemento no
+                    contradomínio. Em outras palavras, não existem dois elementos diferentes no domínio que são mapeados para o
+                    mesmo elemento no contradomínio. A função injetora é frequentemente chamada de "função um para um." Isso
+                    significa que não ocorrem duplicatas no contradomínio, tornando a relação entre o domínio e o contradomínio
+                    uma correspondência estrita e unívoca.
+                </p>
+                <div class="imagem">
+                    <img src="imagens/injetora.webp"/>
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcao-sobrejetora/" target="_blank">Toda Matéria</a></p>
+                </div>
+
+                <h1 class="subtitulo">Função Sobrejetora</h1>
+                <p>
+                    Uma função é considerada sobrejetora quando seu alcance (a imagem da função) abrange todo o contradomínio.
+                    Isso significa que, para cada elemento no contradomínio, existe pelo menos um elemento correspondente no domínio.
+                    Em termos mais simples, a função "atinge" todos os elementos do contradomínio. A função sobrejetora é
+                    frequentemente chamada de "função sobre tudo."
+                </p>
+                <div class="imagem">
+                    <img src="imagens/sobrejetora.webp"/>
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcao-sobrejetora/" target="_blank">Toda Matéria</a></p>
+                </div>
+
+                <h1 class="subtitulo">Função Bijetora</h1>
+                <p>
+                    Uma função é considerada bijetora quando ela é simultaneamente injetora e sobrejetora. Isso significa que cada
+                    elemento único no domínio é mapeado para um único elemento no contradomínio, e a função cobre todo o contradomínio.
+                    Em resumo, uma função bijetora estabelece uma correspondência estrita e unívoca entre o domínio e o contradomínio,
+                    e não deixa elementos sem correspondência. Essa propriedade é muitas vezes chamada de "função um para um e sobre."
+                </p>
+                <div class="imagem">
+                    <img src="imagens/bijetora.webp"/>
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcao-sobrejetora/" target="_blank">Toda Matéria</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

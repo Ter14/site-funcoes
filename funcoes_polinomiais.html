@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+
+    <title>Funções Polinomiais</title>
+</head>
+<body>
+    <!-- Trabalho desenvolvido por: Ester Lima e Shynji Miyasato -->
+
+    <header>
+        <nav class="navbar">
+            <div id="titulo">
+                <h1>Funções: Definições, Tipos e Exemplos</h1>
+            </div>
+
+            <div id="conteudo">
+                <ul>
+                    <li><a href="index.html">O que são funções</a></li>
+                    <li><a href="funcoes_polinomiais.html">Funções Polinomiais</a></li>
+                    <li><a href="funcoes_logaritmicas_e_exponenciais.html">Funções Logarítmicas e Exponenciais</a></li>
+                    <li><a href="funcoes_trigonometricas.html">Funções Trigonométricas</a></li>
+                    <li><a href="referencias.html">Referências</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <section id="funcoes_polinomiais">
+                <h1 class="titulo">Funções Polinomiais</h1>
+
+                <p>
+                    Funções polinomiais são um dos conceitos fundamentais na matemática, desempenhando um papel
+                    essencial na modelagem e resolução de uma ampla variedade de problemas. Elas são expressas como
+                    uma soma ponderada de termos de potências, sendo caracterizadas pela seguinte forma geral:
+                </p>
+                <div class="math">
+                    <!-- Abandon your dreams he who passes here, -->
+                    <!-- for there is nothing else to see, but the tears of my sorrow. -->
+                    <!-- I have had abandoned all my dreams long ago. -->
+                    <math display="inline">
+                        <mi>f(x)</mi>
+                        <mo>=</mo>
+                        <mrow>
+                            <msub>
+                                <mi>a</mi>
+                                <mi>n</mi>
+                            </msub>
+                            <msup>
+                                <mi>x</mi>
+                                <mi>n</mi>
+                            </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                            <msub>
+                                <mi>a</mi>
+                                <mrow>
+                                    <mi>n</mi>
+                                    <mo>-</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msub>
+                            <msup>
+                                <mi>x</mi>
+                                <mrow>
+                                    <mi>n</mi>
+                                    <mo>-</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mtext>...</mtext>
+                        <mo>+</mo>
+                        <mrow>
+                            <msub>
+                                <mi>a</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                            <msub>
+                                <mi>a</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>x</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                            <msub>
+                                <mi>a</mi>
+                                <mn>0</mn>
+                            </msub>
+                            <msup>
+                                <mi>x</mi>
+                                <mn>0</mn>
+                            </msup>
+                        </mrow>
+                    </math>
+                </div>
+                <p>Onde:</p>
+                <ul>
+                    <li>f(x) é a função.</li>
+                    <li>
+                        <math display="inline">
+                            <msub>
+                                <mi>a</mi>
+                                <mi>n</mi>
+                            </msub>
+                        </math>
+                        ,
+                        <math>
+                            <msub>
+                                <mi>a</mi>
+                                <mrow>
+                                    <mi>n</mi>
+                                    <mo>-</mo>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msub>
+                        </math>
+                        ,
+                        ...
+                        ,
+                        <math>
+                            <msub>
+                                <mi>a</mi>
+                                <mn>0</mn>
+                            </msub>
+                        </math>
+                        são os coeficientes constantes.
+                    </li>
+                    <li>
+                        <math display="inline">
+                            <mi>x</mi>
+                        </math>
+                        é a variável independente.
+                    </li>
+                    <li>
+                        <math display="inline">
+                            <mi>n</mi>
+                        </math>
+                        é o grau da função, que deve ser um número inteiro não negativo.
+                    </li>
+                </ul>
+                <p>
+                    Duas das funções polinomiais mais comuns são as funções afins e as funções quadráticas.
+                </p>
+            </section>
+
+            <hr/>
+
+            <section id="funcao_afim">
+                <h1 class="subtitulo">Função Afim</h1>
+                <p>
+                    Uma função afim é uma função polinomial de grau 1. Ela é representada pela forma:
+                </p>
+                <div class="math">
+                    <math>
+                        <mi>f(x)</mi>
+                        <mo>=</mo>
+                        <mrow>
+                            <mi>a</mi>
+                            <mi>x</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mi>b</mi>
+                    </math>
+                </div>
+                <p>
+                    Onde <math display="inline"><mi>a</mi></math> e <math display="inline"><mi>b</mi></math> são coeficientes constantes.
+                    A função afim é caracterizada por sua representação gráfica como uma linha reta no plano cartesiano. O coeficiente
+                    <math display="inline"><mi>a</mi></math> determina a inclinação da reta, enquanto <math display="inline"><mi>b</mi></math>
+                    define o ponto de interseção com o eixo <math display="inline"><mi>y</mi></math>, também chamado de ordenada na origem. A
+                    função afim descreve uma relação linear entre a variável independente <math display="inline"><mi>x</mi></math> e a variável
+                    dependente <math display="inline"><mi>f(x)</mi></math>.
+                </p>
+                <p>
+                    Vale ressaltar também outros dois casos da função afim:
+                </p>
+                <ul>
+                    <li>Função Linear:
+                        <math display="inline">
+                            <mi>f(x)</mi>
+                            <mo>=</mo>
+                            <mrow>
+                                <mi>a</mi>
+                                <mi>x</mi>
+                            </mrow>
+                        </math>
+                    </li>
+                    <li>Função Identidade:
+                        <math display="inline">
+                            <mi>f(x)</mi>
+                            <mo>=</mo>
+                            <mi>b</mi>
+                        </math>
+                    </li>
+                </ul>
+                <div class="imagem">
+                    <img src="imagens/grafico_funcao_afim.png" />
+                    <p>Fonte: <a href="https://descomplica.com.br/blog/resumo-funcao-afim/" target="_blank">Descomplica</a></p>
+                </div>
+            </section>
+
+            <hr/>
+
+            <section id="funcao_quadratica">
+                <h1 class="subtitulo">Função Quadrática</h1>
+                <p>
+                    Uma função quadrática é uma função polinomial de grau 2. Ela é representada pela forma:
+                </p>
+                <div class="math">
+                    <math>
+                        <mi>f(x)</mi>
+                        <mo>=</mo>
+                        <mrow>
+                            <mi>a</mi>
+                            <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                            <mi>b</mi>
+                            <mi>x</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mi>c</mi>
+                    </math>
+                </div>
+                <p>
+                    Onde <math display="inline"><mi>a</mi></math>, <math display="inline"><mi>b</mi></math> e <math display="inline"><mi>c</mi></math>
+                    são coeficientes constantes. A função quadrática é caracterizada por sua representação gráfica como uma parábola no plano
+                    cartesiano. O coeficiente <math display="inline"><mi>a</mi></math> determina a direção de abertura e a concavidade da parábola,
+                    <math display="inline"><mi>b</mi></math> afeta a posição horizontal da parábola, e <math display="inline"><mi>c</mi></math>
+                    determina o vértice, ou seja, o ponto de mínimo ou máximo da parábola, dependendo do valor de
+                    <math display="inline"><mi>a</mi></math>.
+                </p>
+                <div class="imagem">
+                    <img src="imagens/grafico_funcao_quadratica.webp" />
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcao-quadratica/" target="_blank">Toda Matéria</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

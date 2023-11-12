@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+
+    <title>Funções Trigonométricas</title>
+</head>
+<body>
+    <!-- Trabalho desenvolvido por: Ester Lima e Shynji Miyasato -->
+
+    <header>
+        <nav class="navbar">
+            <div id="titulo">
+                <h1>Funções Trigonométricas</h1>
+            </div>
+
+            <div id="conteudo">
+                <ul>
+                    <li><a href="index.html">O que são funções</a></li>
+                    <li><a href="funcoes_polinomiais.html">Funções Polinomiais</a></li>
+                    <li><a href="funcoes_logaritmicas_e_exponenciais.html">Funções Logarítmicas e Exponenciais</a></li>
+                    <li><a href="funcoes_trigonometricas.html">Funções Trigonométricas</a></li>
+                    <li><a href="referencias.html">Referências</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo">
+            <section id="funcoes">
+                <h1 class="titulo">Funções Trigonométricas</h1>
+                <p>
+                    As funções trigonométricas são um conjunto fundamental de funções matemáticas que descrevem as
+                    relações entre ângulos e lados em triângulos e círculos. Elas desempenham um papel crítico em
+                    diversas áreas, desde física e engenharia até astronomia e música. Essas funções são intrinsecamente
+                    ligadas a círculos unitários, triângulos retângulos e a ideia de medidas angulares. Vamos explorar as
+                    principais funções trigonométricas: seno, cosseno e tangente.
+                </p>
+            </section>
+
+            <hr/>
+
+            <section id="funcao_seno">
+                <h1 class="subtitulo">Função Seno</h1>
+                <p>
+                    A função seno, frequentemente denotada por <math display="inline"><mi>sen(θ)</mi></math>, é uma das
+                    funções trigonométricas mais conhecidas. Ela relaciona o ângulo <math display="inline"><mi>θ</mi></math>
+                    a uma razão entre o comprimento do cateto oposto e a hipotenusa em um triângulo retângulo.
+                    Matematicamente, o seno é definido como:
+                </p>
+                <div class="math">
+                    <math>
+                        <mi>sen(θ)</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mtext>oposto</mtext>
+                            <mtext>hipotenusa</mtext>
+                        </mfrac>
+                    </math>
+                </div>
+                <p>
+                    O valor do seno varia de -1 a 1, e a função seno é periodicamente repetida a cada 
+                    <math display="inline"><mn>2</mn><mi>π</mi></math> radianos ou 360°. Ela descreve oscilações periódicas
+                    comuns em fenômenos como ondas, movimentos harmônicos e padrões de luz.
+                </p>
+                <div class="imagem">
+                    <img src="imagens/grafico_funcao_seno.webp" />
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcoes-trigonometricas/" target="_blank">Toda Matéria</a></p>
+                </div>
+            </section>
+
+            <hr/>
+
+            <section id="funcao_cosseno">
+                <h1 class="subtitulo">Função Cosseno</h1>
+                <p>
+                    A função cosseno, representada por <math display="inline"><mi>cos(θ)</mi></math>, é outra função
+                    trigonométrica fundamental. Ela relaciona o ângulo <math display="inline"><mi>θ</mi></math>
+                    a uma razão entre o comprimento do cateto adjacente e a hipotenusa em um triângulo retângulo.
+                    A definição matemática do cosseno é:
+                </p>
+                <div class="math">
+                    <math>
+                        <mi>cos(θ)</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mtext>adjascente</mtext>
+                            <mtext>hipotenusa</mtext>
+                        </mfrac>
+                    </math>
+                </div>
+                <p>
+                    Assim como o seno, o cosseno varia de -1 a 1 e é periodicamente repetido a cada 
+                    <math display="inline"><mn>2</mn><mi>π</mi></math> radianos ou 360°. O cosseno é amplamente usado
+                    na descrição de oscilações, oscilações de sistemas mecânicos e na modelagem de movimentos circulares.
+                </p>
+                <div class="imagem">
+                    <img src="imagens/grafico_funcao_cosseno.webp" />
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcoes-trigonometricas/" target="_blank">Toda Matéria</a></p>
+                </div>
+            </section>
+
+            <hr/>
+
+            <section id="funcao_tangente">
+                <h1 class="subtitulo">Função Tangente</h1>
+                <p>
+                    A função tangente, denotada como <math display="inline"><mi>tan(θ)</mi></math>, relaciona o ângulo 
+                    <math display="inline"><mi>θ</mi></math> a uma razão entre o seno e o cosseno do ângulo.
+                    Matematicamente, a tangente é definida como:
+                </p>
+                <div class="math">
+                    <math>
+                        <mi>tan(θ)</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mi>sen(0)</mi>
+                            <mi>cos(0)</mi>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mtext>oposto</mtext>
+                                    <mtext>hipotenusa</mtext>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mtext>adjascente</mtext>
+                                    <mtext>hipotenusa</mtext>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mtext>oposto</mtext>
+                            <mtext>hipotenusa</mtext>
+                        </mfrac>
+                        <mo>*</mo>
+                        <mfrac>
+                            <mtext>hipotenusa</mtext>
+                            <mtext>adjascente</mtext>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mtext>oposto</mtext>
+                            <mtext>adjascente</mtext>
+                        </mfrac>
+                    </math>
+                </div>
+                <p>
+                    A função tangente não tem um limite superior ou inferior, e seus valores variam ao longo de uma
+                    faixa infinita. Ela é usada em trigonometria, especialmente para resolver triângulos e calcular
+                    ângulos em sistemas de coordenadas polares
+                </p>
+                <div class="imagem">
+                    <img src="imagens/grafico_funcao_tangente.webp" />
+                    <p>Fonte: <a href="https://www.todamateria.com.br/funcoes-trigonometricas/" target="_blank">Toda Matéria</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
