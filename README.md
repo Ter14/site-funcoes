@@ -2,6 +2,8 @@
 
 Site desenvolvido pelos estudantes [Ester Lima](https://github.com/Ter14) e [Shynji Robbie Miyasato](https://github.com/mshynji) como segunda atividade avaliativa da unidade curricular de Matemática Elementar na UFMS durante o semestre letivo de 2023.2.
 
+[Vídeo explicando o site](https://www.youtube.com/watch?v=nEeXXQi0-mk)
+
 ## Instalação
 ### Requisitos
 - Navegador capaz de rodar HTML5 e CSS3
